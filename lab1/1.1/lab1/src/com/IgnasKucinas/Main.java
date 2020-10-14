@@ -106,13 +106,14 @@ public class Main {
         FileOutputStream fos = new FileOutputStream(file);
 
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(fos));
-        for(int i = 0; i < payments.length-1; i++){
-            bw.write(payments[i].toString());
+        for(int i = 0; i < payments.length-1; i++) {
+            if (payments[i] != null) {
+                bw.write(payments[i].toString());
+            }
         }
         bw.close();
     }
 
-    private static d
 
 }
 
