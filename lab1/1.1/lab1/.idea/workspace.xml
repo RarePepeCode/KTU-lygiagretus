@@ -20,14 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ea1a41e-4dd4-4abf-9a0f-6179457b8a0d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IFF-7_5_KucinasI_dat_1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/IFF-7_5_KucinasI_dat_1.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IFF-7_5_KucinasI_rez_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/IFF-7_5_KucinasI_rez_1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/lab1/com/IgnasKucinas/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab1/com/IgnasKucinas/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/lab1/com/IgnasKucinas/Monitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab1/com/IgnasKucinas/Monitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab1/com/IgnasKucinas/Payment$DataMonitor.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/lab1/com/IgnasKucinas/Payment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab1/com/IgnasKucinas/Payment.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/IgnasKucinas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/IgnasKucinas/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1.2/lab1.2/IFF-7_5_KucinasI_dat_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1.2/lab1.2/lab1.2/IFF-7_5_KucinasI_dat_1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../1.2/lab1.2/lab1.2/IFF-7_5_KucinasI_dat_1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1.2/lab1.2/lab1.2/IFF-7_5_KucinasI_rez_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../1.2/lab1.2/lab1.2/IFF-7_5_KucinasI_rez_1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1.2/lab1.2/lab1.2/lab1.2.cpp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +63,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -68,6 +72,17 @@
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -91,6 +106,8 @@
       <updated>1601930803820</updated>
       <workItem from="1601930808241" duration="19909000" />
       <workItem from="1602696351101" duration="7229000" />
+      <workItem from="1602737336511" duration="946000" />
+      <workItem from="1602741678588" duration="2864000" />
     </task>
     <servers />
   </component>
@@ -107,44 +124,85 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="280" y="4" key="#Project_Structure" timestamp="1602696370265">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="280" y="4" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1602696370265" />
-    <state width="1557" height="221" key="GridCell.Tab.0.bottom" timestamp="1602696510036">
+    <state width="1557" height="265" key="GridCell.Tab.0.bottom" timestamp="1602744976825">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
+    <state width="1557" height="265" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.-560.1920.1040@0.0.1600.860" timestamp="1602744976825" />
     <state width="1557" height="221" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1602696510036" />
-    <state width="1557" height="221" key="GridCell.Tab.0.center" timestamp="1602696510036">
+    <state width="1557" height="265" key="GridCell.Tab.0.center" timestamp="1602744976825">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
+    <state width="1557" height="265" key="GridCell.Tab.0.center/0.0.1600.860/1600.-560.1920.1040@0.0.1600.860" timestamp="1602744976825" />
     <state width="1557" height="221" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1602696510036" />
-    <state width="1557" height="221" key="GridCell.Tab.0.left" timestamp="1602696510036">
+    <state width="1557" height="265" key="GridCell.Tab.0.left" timestamp="1602744976825">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
+    <state width="1557" height="265" key="GridCell.Tab.0.left/0.0.1600.860/1600.-560.1920.1040@0.0.1600.860" timestamp="1602744976825" />
     <state width="1557" height="221" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1602696510036" />
-    <state width="1557" height="221" key="GridCell.Tab.0.right" timestamp="1602696510036">
+    <state width="1557" height="265" key="GridCell.Tab.0.right" timestamp="1602744976825">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
+    <state width="1557" height="265" key="GridCell.Tab.0.right/0.0.1600.860/1600.-560.1920.1040@0.0.1600.860" timestamp="1602744976825" />
     <state width="1557" height="221" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1602696510036" />
+    <state width="1557" height="265" key="GridCell.Tab.1.bottom" timestamp="1602744976832">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="265" key="GridCell.Tab.1.bottom/0.0.1600.860/1600.-560.1920.1040@0.0.1600.860" timestamp="1602744976832" />
+    <state width="1557" height="265" key="GridCell.Tab.1.center" timestamp="1602744976832">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="265" key="GridCell.Tab.1.center/0.0.1600.860/1600.-560.1920.1040@0.0.1600.860" timestamp="1602744976832" />
+    <state width="1557" height="265" key="GridCell.Tab.1.left" timestamp="1602744976832">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="265" key="GridCell.Tab.1.left/0.0.1600.860/1600.-560.1920.1040@0.0.1600.860" timestamp="1602744976832" />
+    <state width="1557" height="265" key="GridCell.Tab.1.right" timestamp="1602744976832">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="265" key="GridCell.Tab.1.right/0.0.1600.860/1600.-560.1920.1040@0.0.1600.860" timestamp="1602744976832" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/IgnasKucinas/Main.java</url>
-          <line>107</line>
+          <line>111</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/IgnasKucinas/Main.java</url>
-          <line>156</line>
-          <option name="timeStamp" value="4" />
+          <line>45</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/IgnasKucinas/Main.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/IgnasKucinas/Main.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/IgnasKucinas/Main.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="com.IgnasKucinas.Monitor" memberName="payments" />
+      </pinned-members>
+    </pin-to-top-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="payments" language="JAVA" />

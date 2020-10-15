@@ -29,7 +29,8 @@ public class Main {
             while (!dataMonitor.finishWork())
             {
                 Payment payment = dataMonitor.getPayment();
-                if (payment.getNumber() / 2 == 0) {
+                calculate(payment);
+                if (payment.getNumber() % 2 == 0) {
                     resultMonitor.addPayment(payment);
                 }
             }
@@ -40,7 +41,8 @@ public class Main {
             while (!dataMonitor.finishWork())
             {
                 Payment payment = dataMonitor.getPayment();
-                if (payment.getNumber() / 2 == 0) {
+                calculate(payment);
+                if (payment.getNumber() % 2 == 0) {
                     resultMonitor.addPayment(payment);
                 }
             }
@@ -51,7 +53,8 @@ public class Main {
             while (!dataMonitor.finishWork())
             {
                 Payment payment = dataMonitor.getPayment();
-                if (payment.getNumber() / 2 == 0) {
+                calculate(payment);
+                if (payment.getNumber() % 2 == 0) {
                     resultMonitor.addPayment(payment);
                 }
             }
@@ -62,7 +65,8 @@ public class Main {
             while (!dataMonitor.finishWork())
             {
                 Payment payment = dataMonitor.getPayment();
-                if (payment.getNumber() / 2 == 0) {
+                calculate(payment);
+                if (payment.getNumber() % 2 == 0) {
                     resultMonitor.addPayment(payment);
                 }
             }
@@ -114,7 +118,11 @@ public class Main {
         bw.close();
     }
 
-
+    private static void calculate(Payment payment) {
+        for (int i = 0; i < payment.getNumber(); i++) {
+            payment.setAmount(payment.getAmount() + i);
+        }
+    }
 }
 
 class Monitor {

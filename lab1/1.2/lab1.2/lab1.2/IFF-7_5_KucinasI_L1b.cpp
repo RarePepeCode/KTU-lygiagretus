@@ -19,6 +19,7 @@ using namespace std;
 
 vector<Payment> readData();
 void writeData(Monitor monitor);
+int calculate(Payment payment);
 
 int main()
 {
@@ -40,6 +41,7 @@ int main()
             while (!dataMonitor.finisheWork())
             {
                 Payment payment = dataMonitor.getPayment();
+                payment.amount = calculate(payment);
                 if (payment.number % 2 == 0) {
                     resultMonitor.addPayment(payment);
                 }
@@ -78,3 +80,10 @@ void writeData(Monitor monitor) {
     }
 }
 
+int calculate(Payment payment) {
+    int amount = 0;
+    for (int i = 0; i < payment.number; i++) {
+        amount += i;
+    }
+    return amount;
+}
